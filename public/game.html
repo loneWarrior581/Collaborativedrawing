@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="main_game">
+        <div class="colors">
+            <button id="red" class="colorOptions color red" onclick="colorUpdate(event)"></button>
+            <button id="blue" class="colorOptions color blue" onclick="colorUpdate(event)"></button>
+            <button id="green" class="colorOptions color green" onclick="colorUpdate(event)"></button>
+            <button id="black" class="colorOptions color black" onclick="colorUpdate(event)"></button>
+            <button id="yellow" class="colorOptions color yellow" onclick="colorUpdate(event)"></button>
+            <button id="white" class="colorOptions color white" onclick="colorUpdate(event)"></button>
+        </div>
+        <canvas id=myCanvas height="600px" width="900px"></canvas>
+        <div id="chat">
+            <!-- <div class="message-box">
+                <span class="name">ADAM</span>
+                this is the message box for the communication Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fuga, similique eum officiis quis, ad cum, aliquid labore alias qui asperiores soluta eos! Veritatis
+                quas iure consequuntur beatae animi laudantium quaerat!
+            </div>
+            <div class="bot-message">    
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </div> -->
+        </div>
+
+    </section>
+    <form  id="message-container">
+        <input type="text" name="message" id="message" placeholder="Enter the message here...." autocomplete="off">
+        <button type="submit" id="send"> <img src="./assets/send.png" alt="" id="send-icon">
+        </button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="room.js"></script> -->
+</body>
+
+</html>
+
