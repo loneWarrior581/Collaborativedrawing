@@ -4,5 +4,6 @@
 #### * Creating userdefined rooms <br>
 #### * Chat application within it <br>
 #### * Adjusting the size of the brush <br>
-#### * Diffrent type of color for the brush
+#### * Diffrent type of color for the brush <br>
+#### * Collaborate Drawing at the same time 
 ## Deployment : https://collabdrawapp.herokuapp.com/
