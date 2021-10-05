@@ -196,6 +196,23 @@ form button:hover{
     background: #eee;
 } */
 
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            font-size: 12px;
+        }
+        #icon > h6{
+            font-size: 12px;
+            /* margin-left:50px ; */
+        }
+        #icon{
+            margin-left: 5%;
+        }
+    }
 
 #main_game
 {
@@ -364,5 +381,8 @@ margin: 0px 10px;
 
 /* footer */
 .footer{
-    top: 80%;
+    display: block;
+    bottom: 15px;
+    position: fixed;
+
 }
