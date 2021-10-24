@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Join The Game</title>
 </head>
@@ -18,14 +20,16 @@
         <div class="navbar">
             <a href="#">Home</a>
             <a href="#">About Us</a>
-            <a href="#">Ping</a>
+            <a href="https://www.linkedin.com/in/uttkarsh-singh/">Ping</a>
         </div>
     </nav>
 
     <section id="main_landing" style="justify-content: center; align-items: center;">
         <form action="game.html" id="entry" autocomplete="off">
-            <input type="text" placeholder="Enter your username " class="info" name="myName" id="myName" autocomplete="off" required>
-            <input type="text" placeholder="Enter the room id " class="info" name="roomId" id="myId" autocomplete="off" required>
+            <input type="text" placeholder="Enter your username " class="info" name="myName" id="myName"
+                autocomplete="off" required>
+            <input type="text" placeholder="Enter the room id " class="info" name="roomId" id="myId" autocomplete="off"
+                required>
             <button class="btn" onclick="joinRoom()" type="submit">Join</button>
 
         </form>
@@ -34,7 +38,8 @@
         </div>
 
         <div class="footer">
-            <h1>Made with <i data-v-4024b029="" aria-hidden="true" class="fa fa-heart" style="color: rgb(227, 29, 59);"></i> by Uttkarsh</h1>
+            <h1>Made with <i data-v-4024b029="" aria-hidden="true" class="fa fa-heart"
+                    style="color: rgb(227, 29, 59);"></i> by Uttkarsh</h1>
         </div>
     </section>
     <script src="/socket.io/socket.io.js"></script>
